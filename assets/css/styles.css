@@ -17106,3 +17106,8 @@ ul {
     background-attachment: scroll;
   }
 }
+@media (max-width: 768px) {
+  .banner-section .banner-bgf {
+    background-attachment: scroll;
+  }
+}
