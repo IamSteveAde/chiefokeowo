@@ -1,0 +1,107 @@
+/* Weird Class Names CSS */
+.zorp-business-x {
+  background: #f8f9fa;
+}
+
+.blorp-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.twizzle-badge .glom-round {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #000;
+  font-weight: bold;
+}
+
+.flib-line {
+  flex-grow: 1;
+  border: none;
+  height: 2px;
+  background-color: #fff;
+}
+
+.blop-badge {
+  font-size: 0.9rem;
+}
+
+.splinx-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.splinx-desc {
+  color: #000;
+}
+
+.glorp-grid .blip-card {
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 220px; /* Ensure equal height */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 2rem;
+}
+
+.glorp-grid .blip-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+/* Mature Transparent Colors */
+.blip-blue { background: rgba(13, 109, 253, 0.238); color: #fff; }
+.blip-green { background: rgba(25, 135, 84, 0.188); color: #fff; }
+.blip-yellow { background: rgba(255, 193, 7, 0.241); color: #000; }
+.blip-cyan { background: rgba(13, 202, 240, 0.207); color: #fff; }
+.blip-red { background: rgba(220, 53, 70, 0.2); color: #fff; }
+.blip-purple { background: rgba(110, 66, 193, 0.193); color: #fff; }
+
+.blip-card h4 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.blip-card p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: #000;
+}
+
+.banner-section .banner-bgss {
+  background-image: url('/assets/images/about/gc.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Parallax effect */
+  filter: brightness(0.95);
+  
+}
+.banner-section .banner-bgz {
+  background-image: url('/assets/images/about/phila.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Parallax effect */
+  filter: brightness(0.95);
+  
+}
+.banner-section .banner-bgw {
+  background-image: url('/assets/images/about/aboutbanner2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Parallax effect */
+  filter: brightness(0.95);
+  
+}
+.banner-section .banner-bgp {
+  background-image: url('/assets/images/about/fam.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Parallax effect */
+  filter: brightness(0.95);
+  
+}

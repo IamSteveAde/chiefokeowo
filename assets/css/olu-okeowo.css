@@ -1,0 +1,436 @@
+/* Banner Background (Fixed Image with Dim Overlay) */
+.banner-section .banner-bg {
+  background-image: url('/assets/images/about/aboutbanner.jpg');
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed; /* Parallax effect */
+  filter: brightness(0.95);
+  
+}
+.banner-section .banner-bgs {
+  background-image: url('/assets/images/about/ladybanner.jpg');
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed; /* Parallax effect */
+  filter: brightness(0.95);
+  
+}
+
+/* Mobile fix for background-attachment */
+@media (max-width: 768px) {
+  .banner-section .banner-bg {
+    background-attachment: scroll;
+  }
+}
+/* ABOUT SECTION */
+.about-chief {
+    padding: 80px 20px;
+    background: #ffffff;
+}
+
+.about-container {
+    max-width: 900px;
+    margin: auto;
+    text-align: left;
+    animation: fadeIn 1.2s ease;
+}
+
+.about-container h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.about-container h3 {
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0.7;
+    margin-bottom: 40px;
+}
+
+/* TIMELINE */
+.timeline {
+    border-left: 3px solid #C1A04F; /* gold */
+    padding-left: 30px;
+    position: relative;
+}
+
+.timeline-item {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.timeline-item .dot {
+    width: 16px;
+    height: 16px;
+    background: #C1A04F;
+    border-radius: 50%;
+    position: absolute;
+    left: -39px;
+    top: 5px;
+}
+
+.timeline-item .content h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.timeline-item .content p {
+    font-size: 16px;
+    line-height: 1.6;
+    opacity: 0.85;
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    .timeline {
+        padding-left: 20px;
+    }
+
+    .timeline-item .dot {
+        left: -28px;
+    }
+
+    .about-container h2 {
+        font-size: 26px;
+    }
+}
+/* EARLY LIFE SECTION */
+.early-life-section {
+    padding: 80px 20px;
+    background: #f7f4ee; /* elegant warm neutral */
+}
+
+.early-container {
+    max-width: 900px;
+    margin: auto;
+    animation: fadeIn 1.2s ease;
+}
+
+.early-title {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+}
+
+.early-content p {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #3a3a3a;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .early-title {
+        font-size: 26px;
+    }
+}
+/* EDUCATION SECTION */
+.education-section {
+    padding: 80px 20px;
+    background: #ffffff; /* clean white background to contrast previous section */
+}
+
+.edu-container {
+    max-width: 900px;
+    margin: auto;
+    animation: fadeIn 1.2s ease;
+}
+
+.edu-title {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+}
+
+.edu-content p {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #3a3a3a;
+}
+
+/* Reuse fade-in for consistency */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .edu-title {
+        font-size: 26px;
+    }
+}
+
+/* BUSINESS SECTION */
+.business-section {
+    padding: 80px 20px;
+    background: #f9f9f9; /* light gray for contrast */
+}
+
+.business-container {
+    max-width: 950px;
+    margin: auto;
+    animation: fadeIn 1.2s ease;
+}
+
+.business-title {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+}
+
+.business-content p {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #3a3a3a;
+}
+
+.business-content ul {
+    list-style: disc inside;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.business-content ul li {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 10px;
+    color: #3a3a3a;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .business-title {
+        font-size: 26px;
+    }
+}
+/* FAITH SECTION */
+.faith-section {
+    padding: 80px 20px;
+    background: #f9f9f9; /* consistent light gray */
+}
+
+.faith-container {
+    max-width: 950px;
+    margin: auto;
+    animation: fadeIn 1.2s ease;
+}
+
+.faith-title {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+}
+
+.faith-content p {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #3a3a3a;
+}
+
+/* Reuse fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .faith-title {
+        font-size: 26px;
+    }
+}
+/* PHILANTHROPY SECTION */
+.philanthropy-section {
+    padding: 80px 20px;
+    background: #f9f9f9; /* consistent light gray */
+}
+
+.philanthropy-container {
+    max-width: 950px;
+    margin: auto;
+    animation: fadeIn 1.2s ease;
+}
+
+.philanthropy-title {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+}
+
+.philanthropy-content p {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #3a3a3a;
+}
+
+.philanthropy-list {
+    margin-top: 10px;
+    padding-left: 20px;
+    list-style-type: disc;
+    color: #3a3a3a;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+/* Reuse fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .philanthropy-title {
+        font-size: 26px;
+    }
+    .philanthropy-content p,
+    .philanthropy-list {
+        font-size: 16px;
+    }
+}
+/* PERSONAL LIFE SECTION */
+.personal-life-section {
+    padding: 80px 20px;
+    background: #f9f9f9; /* consistent light gray */
+}
+
+.personal-life-container {
+    max-width: 950px;
+    margin: auto;
+    animation: fadeIn 1.2s ease;
+}
+
+.personal-life-title {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+}
+
+.personal-life-content p {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #3a3a3a;
+}
+
+/* Reuse fade-in animation from previous sections */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .personal-life-title {
+        font-size: 26px;
+    }
+    .personal-life-content p {
+        font-size: 16px;
+    }
+}
+/* FULL IMAGE SECTION */
+.full-image-section {
+    width: 100%;
+    height: 100vh; /* full viewport height */
+    overflow: hidden;
+    position: relative;
+}
+
+.full-image-section .full-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; /* maintains aspect ratio and fills container */
+    object-position: top; /* centers the image */
+    display: block;
+}
+
+/* Optional overlay if you want text later */
+.full-image-section::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0); /* change alpha for dark overlay if needed */
+}
