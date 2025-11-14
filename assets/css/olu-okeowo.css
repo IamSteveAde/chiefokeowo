@@ -22,6 +22,11 @@
     background-attachment: scroll;
   }
 }
+@media (max-width: 768px) {
+  .banner-section .banner-bgs {
+    background-attachment: scroll;
+  }
+}
 /* ABOUT SECTION */
 .about-chief {
     padding: 80px 20px;

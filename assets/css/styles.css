@@ -17081,3 +17081,23 @@ ul {
     background-position: center;
   }
 }
+@media (max-width: 768px) {
+  .banner-section .banner-bgw {
+    background-attachment: scroll;
+  }
+}
+@media (max-width: 768px) {
+  .banner-section .banner-bgp {
+    background-attachment: scroll;
+  }
+}
+@media (max-width: 768px) {
+  .banner-section .banner-bgf {
+    background-attachment: scroll;
+  }
+}
+@media (max-width: 768px) {
+  .banner-section .banner-bgss {
+    background-attachment: scroll;
+  }
+}
