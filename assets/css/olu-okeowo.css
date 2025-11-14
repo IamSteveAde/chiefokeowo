@@ -1,7 +1,7 @@
 /* Banner Background (Fixed Image with Dim Overlay) */
 .banner-section .banner-bg {
   background-image: url('/assets/images/about/aboutbanner.jpg');
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Parallax effect */
   filter: brightness(0.95);
@@ -9,7 +9,7 @@
 }
 .banner-section .banner-bgs {
   background-image: url('/assets/images/about/ladybanner.jpg');
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Parallax effect */
   filter: brightness(0.95);

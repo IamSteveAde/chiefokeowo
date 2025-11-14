@@ -81,6 +81,14 @@
   filter: brightness(0.95);
   
 }
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .banner-section .banner-bgss {
+    background-attachment: scroll; /* Disable fixed on mobile */
+    background-position: top center; /* Adjust if needed */
+    background-size: cover; /* Keep cover */
+  }
+}
 .banner-section .banner-bgz {
   background-image: url('/assets/images/about/phila.jpg');
   background-size: cover;
