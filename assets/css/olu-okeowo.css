@@ -56,7 +56,7 @@
 
 /* TIMELINE */
 .timeline {
-    border-left: 3px solid #C1A04F; /* gold */
+    border-left: 3px solid #c2dcff; /* gold */
     padding-left: 30px;
     position: relative;
 }
@@ -69,7 +69,7 @@
 .timeline-item .dot {
     width: 16px;
     height: 16px;
-    background: #C1A04F;
+    background: #c2dcff;
     border-radius: 50%;
     position: absolute;
     left: -39px;
@@ -117,7 +117,7 @@
 /* EARLY LIFE SECTION */
 .early-life-section {
     padding: 80px 20px;
-    background: #f7f4ee; /* elegant warm neutral */
+    background: #c2dcff5c; /* elegant warm neutral */
 }
 
 .early-container {

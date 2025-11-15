@@ -1,0 +1,61 @@
+/* Lifestyle Section */
+.lifestyle-section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.lifestyle-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 5rem;
+  align-items: center;
+}
+.lifestyle-row.reverse {
+  flex-direction: row-reverse;
+}
+.lifestyle-img {
+  flex: 1 1 45%;
+}
+.lifestyle-img img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+.lifestyle-text {
+  flex: 1 1 50%;
+}
+.lifestyle-text .caption {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #777;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+.lifestyle-text h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: #111;
+}
+.lifestyle-text p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .lifestyle-row {
+    flex-direction: column;
+  }
+  .lifestyle-row.reverse {
+    flex-direction: column;
+  }
+  .lifestyle-img, .lifestyle-text {
+    flex: 1 1 100%;
+  }
+  .lifestyle-text h2 {
+    font-size: 1.5rem;
+  }
+}
